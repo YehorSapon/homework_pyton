@@ -1,5 +1,5 @@
 weight = int(input("Увядзіце вашу вагу ў кг: "))
-height = int(input("Увядзіце ваш рост ў см: "))
+height = int(input("Увядзіце ваш рост у см: "))
 BMI = (weight//((height/100)**2))
 print(f"Ваш Індэкс масы цела (ІМЦ): {BMI}")
 number1 = int((BMI-10)//3)
