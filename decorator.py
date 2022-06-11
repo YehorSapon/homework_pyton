@@ -6,9 +6,9 @@
 def stars(func):
     """Stars funcion."""
     def inner(*args, **kwargs):
-        print("**********")
+        print("************")
         func(*args, **kwargs)
-        print("**********")
+        print("************")
         return inner
 
 
