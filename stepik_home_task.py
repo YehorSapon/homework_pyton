@@ -10,7 +10,7 @@ for i in range(1,(L-1), 1):
     if dna[i] == dna[i-1]:
         cnt += 1
         chair = dna[i-1]
-        new = f"{chair}{cnt}"
+        new = new[:-1] + str(cnt)
         print(new)
     else:
         cnt = 1
